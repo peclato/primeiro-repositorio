@@ -1,3 +1,82 @@
-<html>
-        <h1> Meu primeiro arquivo no meu repositório</h1>
-<\html>
+<!DOCTYPE html>
+<html lang="en">
+ 
+    <head>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+   </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EuCarioca </title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho"> 
+
+     <h1 class="titulo-cabecalho"> 
+        EuCarioca
+     </h1> 
+     <section class="EuCarioca">
+
+     <ul>
+     <li class="lista-cabecalho" >Home</li>
+     <li class="lista-cabecalho">Delivery</li>
+     <li class="lista-cabecalho">Log In</li>
+    </ul>
+
+    </header>
+<section class="EuCarioca">
+    <div class="texto-sobre-nos">
+    <h2 class="eucarioca-titulo">Sobre Nós</h2>
+                <p class="eucario-texto-um"> somos uma empresa que visamos a sofisticação da culinária carioca, priorizamos nossos chefs nascidos no rio e damos espaço para artistas cariocas. Com uma ambientação única e impressionante, com eventos memoráveis.   </p>
+    </div>
+               <img class="imagem-1" src="rio 1.jpg" alt="imagem do rio">
+  
+            </section>
+</body>
+</html>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #F3B20A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+     
+}
+
+.lista-cabecalho {
+    color: aliceblue;
+    display: inline-block;
+    font-size: 32px;
+    margin: 0 16px;
+}
+
+.eucarioca{
+    background-image: linear-gradient( #F3B20A #fff);
+}
+    
+ 
+.titulo-cabecalho{
+   color: aliceblue;
+    font-family:'kenia'; 
+    font-size: 55px;
+    
+}
+
+.imagem-1{
+    width: 50%;
+}
+
+.texto-sobre-nos{
+    width: 35%;
+}
+
